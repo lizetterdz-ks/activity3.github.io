@@ -6,65 +6,67 @@
     <link href="styles.css" rel="stylesheet">
   </head>
   <body>
-    <div>
-      <h1 class="text-center">Interested in joining one of our programs?</h1>
-      <h2 clas="text-center"> Complete this survey and we'll contact you!</h2>
-    </div>
-    
-    <div>
-      <p>
-        <label for="program">What program are you interested in?</label>
-        <select name="program" id="program">
-          <option value="arch">Architecture</option>
-          <option value="autom">Automotive</option>
-          <option value="cs">Computer Science</option>
-          <option value="elec">Electronics</option>
-          <option value="mech">Mechanics</option>
-          <option value="phy">Physics</option>
-        </select>
-      </p>
-      <p>
-        <label for="classformat">How would you like to take classes?</label>
-        <div id="classformat">
-          <input type="radio" id="classformatchoice1" name="classformatchoice" value="online">
-          <label for="classformatchoice1">Online</label>
-          <input type="radio" id="classformatchoice2" name="classformatchoice" value="face">
-          <label for="classformatchoice2">Face-to-face</label>
-          <input type="radio" id="classformatchoice3" name="classformatchoice" value="hybrid">
-          <label for="classformatchoice1">Hybrid</label>
-        </div>
-      </p>
-    </div>
-    
-    <div>
-      <h3>Personal Information</h3>
-      <p>
-        <label for="name">Name</label>
-        <input type="text" id="name" name="name" placeholder="Jane Doe">
-      </p>
-      <p>
-        <label for="age">Age</label>
-        <input type="number" id="age" name="age" placeholder="21">
-      </p>
-      <p>
-        <label for="email">Email</label>
-        <input type="email" id="email" name="email" placeholder="janedoe@examplemail.com">
-      </p>
-    </div>
-    
-  <br>
-    <div>
-      <p>Please give us your feedback on this survey!</p>
-      <p>
-        <textarea name="feedback" id="feedback" cols="30" rows="4"></textarea>
-      </p>
-      <p>
-        <label for="anothersurvey">Would you consider taking another survey in a later time?</label>
-        <input type="checkbox" id="anothersurvey" name="anothersurvey">
-      </p>
-      <p>
-        <button type="submit">Submit responses</button>
-      </p>
-    </div>
+    <div class="container-fluid">
+      <div>
+        <h1 class="text-center">Interested in joining one of our programs?</h1>
+        <h2 clas="text-center"> Complete this survey and we'll contact you!</h2>
+      </div>
+
+      <div>
+        <p>
+          <label for="program">What program are you interested in?</label>
+          <select name="program" id="program">
+            <option value="arch">Architecture</option>
+            <option value="autom">Automotive</option>
+            <option value="cs">Computer Science</option>
+            <option value="elec">Electronics</option>
+            <option value="mech">Mechanics</option>
+            <option value="phy">Physics</option>
+          </select>
+        </p>
+        <p>
+          <label for="classformat">How would you like to take classes?</label>
+          <div id="classformat">
+            <input type="radio" id="classformatchoice1" name="classformatchoice" value="online">
+            <label for="classformatchoice1">Online</label>
+            <input type="radio" id="classformatchoice2" name="classformatchoice" value="face">
+            <label for="classformatchoice2">Face-to-face</label>
+            <input type="radio" id="classformatchoice3" name="classformatchoice" value="hybrid">
+            <label for="classformatchoice1">Hybrid</label>
+          </div>
+        </p>
+      </div>
+
+      <div>
+        <h3>Personal Information</h3>
+        <p>
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" placeholder="Jane Doe">
+        </p>
+        <p>
+          <label for="age">Age</label>
+          <input type="number" id="age" name="age" placeholder="21">
+        </p>
+        <p>
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="janedoe@examplemail.com">
+        </p>
+      </div>
+
+    <br>
+      <div>
+        <p>Please give us your feedback on this survey!</p>
+        <p>
+          <textarea name="feedback" id="feedback" cols="30" rows="4"></textarea>
+        </p>
+        <p>
+          <label for="anothersurvey">Would you consider taking another survey in a later time?</label>
+          <input type="checkbox" id="anothersurvey" name="anothersurvey">
+        </p>
+        <p>
+          <button type="submit">Submit responses</button>
+        </p>
+      </div>
+    </div> 
   </body>
 </html>
