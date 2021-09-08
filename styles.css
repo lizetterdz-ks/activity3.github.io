@@ -3,14 +3,16 @@ body {
     font-family: sans-serif;
     max-width: 100%;
     min-height: 100%;
-    display: flex;
-    justify-content: center;
 }
 #survey-form {
     background: white;
     width: 40vw;
     border-radius: 5px;
     padding: 10px;
+}
+.box {
+    display: flex;
+    justify-content: center;
 }
 h1 {
   color: darkgreen;
