@@ -4,7 +4,7 @@ body {
     max-width: 100%;
     min-height: 100%;
 }
-.survey-form {
+#survey-form {
     background: white;
     width: 40vw;
     border-radius: 5px;
