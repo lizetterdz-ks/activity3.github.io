@@ -9,8 +9,6 @@ body {
     width: 40vw;
     border-radius: 5px;
     padding: 10px;
-    align-items: center;
-    align-self: center;
 }
 h1 {
   color: darkgreen;
